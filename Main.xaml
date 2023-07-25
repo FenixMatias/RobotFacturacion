@@ -1,0 +1,282 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1059.2,3594.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.PDF.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Sequence global" sap:VirtualizedContainerService.HintSize="697.6,3529.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="RutaFacturas" />
+      <Variable x:TypeArguments="s:Object[]" Name="ListaFicheros" />
+      <Variable x:TypeArguments="x:String" Name="NumeroFactura" />
+      <Variable x:TypeArguments="x:Int32" Name="Contador">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" Value="2" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="Fecha" />
+      <Variable x:TypeArguments="x:String" Name="Importe" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Ingreso Ruta" sap:VirtualizedContainerService.HintSize="635.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Hola soy R2-D2 y te ayudare para el segumiento de las facturas :) indicame la ruta por favor" Title="Robot Facturación">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[RutaFacturas]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <Assign DisplayName="Se asigna los archivos a una variable" sap:VirtualizedContainerService.HintSize="635.2,81.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="s:Object[]">[ListaFicheros]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="s:String[]">[Directory.GetFiles(RutaFacturas, "*.pdf")]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:WriteCell Cell="A1" DisplayName="Write Cell Workbook Número Factura" sap:VirtualizedContainerService.HintSize="635.2,116" sap2010:WorkflowViewState.IdRef="WriteCell_11" SheetName="Hoja1" Text="Número Factura" WorkbookPath="Seguimiento_Factura.xlsx" />
+    <ui:WriteCell Cell="B1" DisplayName="Write Cell Workbook Fecha" sap:VirtualizedContainerService.HintSize="635.2,116" sap2010:WorkflowViewState.IdRef="WriteCell_13" SheetName="Hoja1" Text="Fecha" WorkbookPath="Seguimiento_Factura.xlsx" />
+    <ui:WriteCell Cell="C1" DisplayName="Write Cell Workbook Importe" sap:VirtualizedContainerService.HintSize="635.2,116" sap2010:WorkflowViewState.IdRef="WriteCell_15" SheetName="Hoja1" Text="Importe" WorkbookPath="Seguimiento_Factura.xlsx" />
+    <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each ListaFicheros" sap:VirtualizedContainerService.HintSize="635.2,2546.4" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[ListaFicheros]">
+      <ui:ForEach.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="fichero" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="601.6,2358.4" sap2010:WorkflowViewState.IdRef="Sequence_25">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence sap:VirtualizedContainerService.HintSize="558.4,2268.8" sap2010:WorkflowViewState.IdRef="Sequence_28">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Se inicia el proceso" FileName="[fichero.ToString]" sap:VirtualizedContainerService.HintSize="496,88" sap2010:WorkflowViewState.IdRef="StartProcess_4" />
+              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Dejamos el pdf en modo lectura con este atajo" sap:VirtualizedContainerService.HintSize="496,154.4" sap2010:WorkflowViewState.IdRef="SendHotkey_11" Key="5" KeyModifiers="Ctrl, Shift">
+                <ui:SendHotkey.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="27169e7f-2759-4fde-a1e9-20906a5e6d40" InformativeScreenshot="d0d91c0d2f10752880afea6a61090bdb" Selector="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' omit:title='Factura 4.pdf - Adobe Acrobat Reader (64-bit)' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:SendHotkey.Target>
+              </ui:SendHotkey>
+              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Damos enter" sap:VirtualizedContainerService.HintSize="496,133.6" sap2010:WorkflowViewState.IdRef="SendHotkey_12" Key="enter" KeyModifiers="None" SpecialKey="True">
+                <ui:SendHotkey.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="b32c1d7d-ab7c-4e8b-937e-738677e8d10b">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:SendHotkey.Target>
+              </ui:SendHotkey>
+              <Sequence DisplayName="Secuencia lectura pdf" sap:VirtualizedContainerService.HintSize="496,812" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:String" Name="TextoPdf" />
+                  <Variable x:TypeArguments="s:String[]" Name="ArrayPdfTexto" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:ReadPDFText PreserveFormatting="{x:Null}" DisplayName="Se realiza la lectura de los pdf" FileName="[fichero.ToString]" sap:VirtualizedContainerService.HintSize="433.6,83.2" sap2010:WorkflowViewState.IdRef="ReadPDFText_2" Range="All" Text="[TextoPdf]" />
+                <Assign DisplayName="Se asigna una nueva variable ArrayPdfTexto" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_14">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="s:String[]">[ArrayPdfTexto]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="s:String[]">[TextoPdf.Split(Environment.NewLine.ToArray, StringSplitOptions.RemoveEmptyEntries)]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign DisplayName="Se asigna una nueva variable NumeroFactura" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_18">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[NumeroFactura]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[ArrayPdfTexto(4)]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign DisplayName="Se asigna una nueva variable NumeroFactura" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_17">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[Fecha]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[ArrayPdfTexto(2)]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <Assign DisplayName="Se asigna una nueva variable NumeroFactura" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_16">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[Importe]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[ArrayPdfTexto(24)]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <WriteLine DisplayName="Escribimos log para ver los resultados" sap:VirtualizedContainerService.HintSize="433.6,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[NumeroFactura + &quot; &quot; + Fecha + &quot; &quot; + Importe]" />
+              </Sequence>
+              <Sequence DisplayName="Sequence escritura excel" sap:VirtualizedContainerService.HintSize="496,540" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:WriteCell Cell="[&quot;A&quot;+Contador.ToString]" DisplayName="Write Cell Workbook NumeroFactura" sap:VirtualizedContainerService.HintSize="387.2,116" sap2010:WorkflowViewState.IdRef="WriteCell_17" SheetName="Hoja1" Text="[NumeroFactura]" WorkbookPath="Seguimiento_Factura.xlsx" />
+                <ui:WriteCell Cell="[&quot;B&quot;+Contador.ToString]" DisplayName="Write Cell Workbook Fecha" sap:VirtualizedContainerService.HintSize="387.2,116" sap2010:WorkflowViewState.IdRef="WriteCell_18" SheetName="Hoja1" Text="[Fecha]" WorkbookPath="Seguimiento_Factura.xlsx" />
+                <ui:WriteCell Cell="[&quot;C&quot;+Contador.ToString]" DisplayName="Write Cell Workbook Importe" sap:VirtualizedContainerService.HintSize="387.2,116" sap2010:WorkflowViewState.IdRef="WriteCell_19" SheetName="Hoja1" Text="[Importe]" WorkbookPath="Seguimiento_Factura.xlsx" />
+              </Sequence>
+              <Assign DisplayName="Assign Contador" sap:VirtualizedContainerService.HintSize="496,81.6" sap2010:WorkflowViewState.IdRef="Assign_19">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:Int32">[Contador]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:Int32">[Contador+1]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:CloseApplication DisplayName="Close Application 'acrobat.exe Factura'" sap:VirtualizedContainerService.HintSize="496,107.2" sap2010:WorkflowViewState.IdRef="CloseApplication_1">
+                <ui:CloseApplication.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="79d82bc6-380f-4eb7-a710-7dfcd2962f47" InformativeScreenshot="c53795718fab2101ddc049bc4ebb510c" Selector="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' omit:title='Factura 1.pdf - Adobe Acrobat Reader (64-bit)' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:CloseApplication.Target>
+              </ui:CloseApplication>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEach.Body>
+    </ui:ForEach>
+  </Sequence>
+</Activity>
